@@ -1,0 +1,44 @@
+{
+    "name" : "aieghbal/laravel-mobile-auth",
+    "description": "Simple mobile authentication for laravel framework",
+    "keywords": [
+        "aieghbal",
+        "laravel mobile auth",
+        "mobile auth",
+        "Amir Eghbal"
+    ],
+    "homepage": "https://github.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amir Eghbal",
+            "email": "aieghbal.me@gmail.com",
+            "homepage": "https://www.linkedin.com/in/am-eghbal/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2",
+        "illuminate/support": ">=6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aieghbal\\LaravelMobileAuth\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aieghbal\\LaravelMobileAuth\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    }
+}
